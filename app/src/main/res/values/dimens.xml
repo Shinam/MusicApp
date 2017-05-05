@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ScreenEdge">16dp</dimen>
+    <dimen name="ListItem">72dp</dimen>
+    <dimen name="Subtitle">48dp</dimen>
+    <dimen name="Margin">16dp</dimen>
+
+    <dimen name="Button">48dp</dimen>
+    <dimen name="Play">64dp</dimen>
+
+    <dimen name="PButton">72dp</dimen>
+    <dimen name="PPlay">96dp</dimen>
+
+    <dimen name="NameList">24dp</dimen>
+
+    <dimen name="View">1dp</dimen>
+
+</resources>

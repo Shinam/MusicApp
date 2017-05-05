@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/Margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.ArtistActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Subtitle"
+        android:gravity="center_vertical"
+        android:text="@string/artists"
+        android:textColor="@color/DarkGreen" />
+
+    <TextView
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/microphone"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/art1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/View"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/microphone"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/art2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/View"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/microphone"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/art3" />
+
+</LinearLayout>

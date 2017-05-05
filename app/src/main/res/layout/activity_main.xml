@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/ScreenEdge"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Subtitle"
+        android:gravity="center_vertical"
+        android:text="@string/librairy"
+        android:textColor="@color/DarkGreen" />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/playlist"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/playlist" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/View"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/artist"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/artists" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/View"
+        android:background="@android:color/darker_gray" />
+
+
+    <TextView
+        android:id="@+id/album"
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/album"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/albums" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/View"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/song"
+        style="@style/Body"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItem"
+        android:drawableLeft="@drawable/song"
+        android:drawablePadding="@dimen/NameList"
+        android:gravity="center_vertical"
+        android:text="@string/songs" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_border"
+        android:paddingTop="@dimen/Margin">
+
+        <TextView
+            android:id="@+id/ScrollSong"
+            style="@style/Playing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <SeekBar
+            android:id="@+id/curent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ScrollSong"
+            android:max="100"
+            android:progress="40" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/Margin">
+
+                <ImageView
+                    android:layout_width="@dimen/Button"
+                    android:layout_height="@dimen/Button"
+                    android:layout_margin="@dimen/Margin"
+                    android:src="@drawable/previous" />
+
+                <ImageView
+                    android:layout_width="@dimen/Play"
+                    android:layout_height="@dimen/Play"
+                    android:src="@drawable/pause" />
+
+                <ImageView
+                    android:layout_width="@dimen/Button"
+                    android:layout_height="@dimen/Button"
+                    android:layout_margin="@dimen/Margin"
+                    android:src="@drawable/next" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/expend"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/Margin"
+                android:layout_marginRight="@dimen/Margin"
+                android:src="@drawable/expand" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

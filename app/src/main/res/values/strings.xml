@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="librairy">Library</string>
+    <string name="playlist">Playlists</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="artistName">Name of the artist</string>
+    <string name="songName">Name of the song</string>
+    <string name="play1">Playlist 1</string>
+    <string name="play2">Playlist 2</string>
+    <string name="play3">Playlist 3</string>
+    <string name="art1">Artist 1</string>
+    <string name="art2">Artist 2</string>
+    <string name="art3">Artist 3</string>
+    <string name="alb1">Album 1</string>
+    <string name="alb2">Album 2</string>
+    <string name="alb3">Album 3</string>
+    <string name="song1">Song 1</string>
+    <string name="song2">Song 2</string>
+    <string name="song3">Song 3</string>
+    <string name="addPlay">Add Playlist</string>
+
+    <string name="nowPlayingDesc">This activity show and play the current
+    song. There are buttons for moving to the next and previous songs in the playlist, one
+        for a shuffled play and one that repeats the song. A seek bar shows the time position.
+    One other seek bar for the volume of the song.</string>
+
+    <string name="mainDesc">This activity is the summary to access to all activities. You can click on each
+    part to access to a new activity. At the bottom, a little player showing the current song who is playing.
+    4 buttons at this player, play, next, previous and expend to access to the PlayingActivity.</string>
+
+    <string name="playlistDesc">This activity shows all playlists the user makes. In the future I will put
+    a scrollview if there are too much playlist and change the TextView for a ListView of all playlists.
+        I\'ll put buttons like play, edit, etc. He can also make a new playlist</string>
+
+    <string name="artistDesc">This activity shows all artists. In the future if you click on one it will show
+    all songs made by the artist. And you\'ll can play the songs of the artist.</string>
+
+    <string name="albumDesc">This activity shows all albums. In the future if you click on one it will show
+    all songs in the album. And you\'ll can play the songs of the artist.</string>
+
+    <string name="songDesc">This activity shows all songs. In the future if you click on one will
+        play the song.</string>
+
+</resources>
