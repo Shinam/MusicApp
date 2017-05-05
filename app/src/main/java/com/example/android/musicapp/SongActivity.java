@@ -9,6 +9,7 @@ public class SongActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_song);
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.songDesc));
     }
 }

@@ -9,6 +9,7 @@ public class AlbumActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_album);
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.albumDesc));
 
     }

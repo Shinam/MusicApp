@@ -47,6 +47,7 @@ public class BaseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //Open a popup to display description when click on Explanation
     public void explain() {
         activity_main = (LinearLayout) findViewById(R.id.activity_main);
         layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(LAYOUT_INFLATER_SERVICE);

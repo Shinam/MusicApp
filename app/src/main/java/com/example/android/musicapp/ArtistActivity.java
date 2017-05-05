@@ -9,6 +9,7 @@ public class ArtistActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist);
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.artistDesc));
     }
 }

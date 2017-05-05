@@ -19,10 +19,18 @@
         <activity
             android:name=".PlayingActivity"
             android:label="Now Playing" />
-        <activity android:name=".PlaylistActivity" />
-        <activity android:name=".ArtistActivity" />
-        <activity android:name=".AlbumActivity" />
-        <activity android:name=".SongActivity"></activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="Playlist" />
+        <activity
+            android:name=".ArtistActivity"
+            android:label="Artist" />
+        <activity
+            android:name=".AlbumActivity"
+            android:label="Album" />
+        <activity
+            android:name=".SongActivity"
+            android:label="Song"></activity>
     </application>
 
 </manifest>

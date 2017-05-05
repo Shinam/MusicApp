@@ -69,6 +69,7 @@ public class MainActivity extends BaseActivity {
             }
         });
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.mainDesc));
 
     }

@@ -9,6 +9,7 @@ public class PlaylistActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.playlistDesc));
     }
 }

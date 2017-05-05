@@ -14,6 +14,7 @@ public class PlayingActivity extends BaseActivity {
         ArtistSong.setText(getString(R.string.artistName) + " - " + getString(R.string.songName));
         ArtistSong.setSelected(true);
 
+        //Display the description with BaseActivity
         super.setSentence(getString(R.string.nowPlayingDesc));
     }
 }
